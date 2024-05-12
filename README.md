@@ -8,12 +8,14 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm:
-1. Import necessary libraries (e.g., pandas, numpy,matplotlib).
-2. Load the dataset and then split the dataset into training and testing sets using sklearn library.
-3. Create a Linear Regression model and train the model using the training data (study hours as input, marks scored as output).
-4. Use the trained model to predict marks based on study hours in the test dataset.
-5. Plot the regression line on a scatter plot to visualize the relationship between study hours and marks scored.
-
+/*
+1.Import the standard Libraries.
+2.Set variables for assigning dataset values.
+3.Import linear regression from sklearn.
+4.Assign the points for representing in the graph.
+5.Predict the regression for marks by using the representation of the graph.
+6.Compare the graphs and hence we obtained the linear regression for the given datas.
+*/
 
 ## Program:
 ```
@@ -63,15 +65,41 @@ print("RMSE = ",rmse)
 ```
 
 ## Output:
+df.head()
 
-![3](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/a79d91e0-9b90-42e8-9314-acab124b9a4a)
-![1](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/cac65fb0-d3b8-4ff2-85bb-713840984d2f)
-![2](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/a20158d1-2c07-4e09-976b-75f797caac73)
-![4](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/1c67da0c-4ff8-4c47-b196-e0a507ed0567)
-![5](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/558d85d7-7d6f-44b0-8f18-e29943a4d0f5)
-![6](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/b156e9d6-df58-443f-a0b5-f614cc2c7d3d)
-![7](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/90cdeb65-e11c-46c6-b155-9609aeb50fe0)
+![1](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/74bd1c81-f9a3-44aa-ba32-4ba6d837a0cd)
 
+df.tail()
+
+![2](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/8a85a802-5e9e-4af6-9411-37a1802ce561)
+
+Array Values of X
+
+![image](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/b5815546-ce58-4b55-888b-ec343f90856f)
+
+Array Values of Y
+
+![3](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/cf25e0cb-2999-49ac-9623-63c3fb5689f7)
+
+Values of Y Prediction
+
+![4-2](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/17a39ba7-36a4-4cb6-8188-a2b97c3f24db)
+
+Values of Y test
+
+![5](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/389e65bf-9aee-4810-a920-ad764012f2c6)
+
+Training set graph
+
+![6](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/2fad3d6c-f24c-4eaf-9cad-e2b9acfb7739)
+
+Test set graph
+
+![7](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/41087550-2fcf-4f90-9c8b-2f44d06b9014)
+
+Values of MSE,MAE and RMSE
+
+![8](https://github.com/sharon120/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149555539/1526af70-9fc9-4214-83a3-9ea313a3b598)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
